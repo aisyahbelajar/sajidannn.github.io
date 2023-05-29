@@ -1,0 +1,164 @@
+/* CSS for screens larger than 600px */
+body {
+  font-family: Arial, sans-serif;
+  position: relative;
+  background-image: url(content/walpaper2.jpg);
+}
+
+.tetap {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+header {
+  background-color: #fffaec;
+  color: #fff;
+  padding: 20px;
+  height: 80px; /* Ubah tinggi header sesuai kebutuhan */
+  transition: height 0.5s; /* Efek perubahan tinggi dengan durasi 0.5 detik */
+}
+
+header.shrink {
+  height: 50px; /* Ubah tinggi header saat di-scroll ke bawah */
+}
+
+.divider {
+  background-image: url(content/walpaper2.jpg);
+  height: 10px; /* Tinggi konten garis pembatas */
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #fffaec;
+  border-radius: 5px;
+  background-color: #fffaec;
+}
+
+#headline {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  transition: margin-top 0.5s;
+  color: #000000;
+}
+header.shrink h1 {
+  margin-top: -20px; /* Ubah nilai margin-top sesuai dengan preferensi Anda */
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+#video-container {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+#video-container video,
+#video-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+#explanation {
+  display: none;
+  margin-bottom: 20px;
+}
+
+#explanation p {
+  margin-bottom: 10px;
+}
+
+#explanation #next-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#video {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#continue-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#quiz-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#score {
+  margin: 20px 40%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* CSS for screens smaller than or equal to 600px */
+@media (max-width: 600px) {
+  main {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .image-container {
+    margin-bottom: 10px;
+  }
+
+  #score {
+    margin: 10px;
+  }
+}
