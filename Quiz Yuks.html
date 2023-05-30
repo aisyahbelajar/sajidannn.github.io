@@ -54,7 +54,8 @@
             </button>
             <button
               type="button"
-              class="btn btn-primary"
+              class="btn"
+              style="background-color: rgb(255, 166, 0); color: #fffaec"
               onclick="sendMessage()"
             >
               Simpan Nama
@@ -134,18 +135,36 @@
             <img id="image" src="content/opening.jpg" alt="Article Image" />
           </div>
         </div>
-        <div id="score" style="display: none">Score: 0</div>
+        <div
+          id="score"
+          style="
+            display: none;
+            background-color: rgb(255, 166, 0);
+            color: #fffaec;
+          "
+        >
+          Score: 0
+        </div>
         <div id="explanation" style="display: none">
           <h5 id="cek"></h5>
           <p id="explain">Article Text</p>
-          <button id="next-btn" onclick="nextArticle()" class="btn btn-primary">
+          <button
+            id="next-btn"
+            onclick="nextArticle()"
+            class="btn btn-primary"
+            style="background-color: rgb(255, 183, 48); color: #fffaec"
+          >
             Lanjut
           </button>
           <button
             id="end-btn"
             class="btn btn-primary"
             onclick="cekScore()"
-            style="display: none"
+            style="
+              display: none;
+              background-color: rgb(255, 183, 48);
+              color: #fffaec;
+            "
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           >
@@ -165,7 +184,7 @@
             <div
               id="progress-bar-fill"
               class="progress-bar progress-bar-animated"
-              style="width: 0%"
+              style="width: 0%; background-color: orange"
             ></div>
           </div>
         </div>
@@ -173,7 +192,8 @@
       <div id="buttons" class="text-center">
         <button
           id="continue-btn"
-          class="btn btn-primary"
+          class="btn btn-lg"
+          style="background-color: rgb(255, 166, 0); color: #fffaec"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
         >
@@ -183,14 +203,16 @@
           <button
             id="true-btn"
             onclick="checkAnswer(true)"
-            class="btn btn-primary"
+            class="btn btn-lg"
+            style="background-color: rgb(255, 166, 0); color: #fffaec"
           >
             Fakta
           </button>
           <button
             id="false-btn"
             onclick="checkAnswer(false)"
-            class="btn btn-primary"
+            class="btn btn-lg"
+            style="background-color: rgb(255, 166, 0); color: #fffaec"
           >
             Hoaks
           </button>
