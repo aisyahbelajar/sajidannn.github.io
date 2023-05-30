@@ -62,7 +62,7 @@ const articles = [
   {
     headline: "Tabung Gas Berisi Air",
     source:
-      "pada vidio dibawah, terdapat dua orang pemuda yang membuang isi dari tabung gas 3 kg dan mereka berkata bahwa, Ini gas isinya air, bukan gas. ungkap pria dalam video. Menurut Kamu apakah pernyataan yang disampaikan dalam video tersebut dapat dipercaya dan kenyataan?",
+      "Pada vidio dibawah, terdapat dua orang pemuda yang membuang isi dari tabung gas 3 kg dan mereka berkata bahwa, Ini gas isinya air, bukan gas. ungkap pria dalam video. Menurut Kamu apakah pernyataan yang disampaikan dalam video tersebut dapat dipercaya dan kenyataan?",
     video: "content/LPG.mp4",
     cek: "Berita ini Palsu",
     explain:
@@ -70,24 +70,73 @@ const articles = [
     answer: false,
   },
   {
-    headline: "Article Headline 8",
-    source: "benar",
-    video: "../WhatsApp Video 2023-05-22 at 08.09.51.mp4",
-    explain: "This is the explain of article 8.",
+    headline: "Timnas MLBB Women Juarai SEA Games 2023",
+    source:
+      "PBESI di akun instagramnya memposting berita yang berisi bahwa tim MLBB Women Indonesia berhasli meraih medali emas di SEA Games 2023. Menurut Anda apakah postingan ini dapat dipercaya atau tidak?",
+    image: "content/mlbb women.jpg",
+    cek: "Berita ini Asli",
+    explain:
+      "Di SEA Games 2023, timnas MLBB Women Indonesia memeang berhasil membawa pulang medali emas usai mengalahkan timnas Filipina dalam laga Best of 5 (BO5) dengan skor tipis 3-2.",
     answer: true,
   },
   {
-    headline: "Informasi Hoaks",
-    source: "Jawab dengan menekan tombol Hoaks",
-    image: "content/hoax2.jpg",
-    explain: "This is the explain of article 9.",
-    answer: false,
+    headline: "Korupsi Menkominfo",
+    source:
+      "Postingan di bawah berisi berita yang mennyatakan bahwa Menkominfo Jhonny G PLate, menjadi tersangka atas tindak pidana kasus korupsi. Menurut anda apakah yang disampaikan dalam berita tersebut merupakan informasi fakta?",
+    video: "content/jhonny yes papa.mp4",
+    cek: "Berita ini Asli",
+    explain:
+      "Kejaksaan Agung resmi menetapkan Menteri Komunikasi dan Informatika Johnny Plate sebagai tersangka dugaan korupsi. Dia juga langsung ditahan selama 20 hari di Rutan Salemba Cabang Kejagung.",
+    answer: true,
   },
   {
-    headline: "Informasi Fakta",
-    source: "Jawab dengan menekan tombol fakta",
-    image: "content/fakta3.jpg",
-    explain: "This is the explain of article 10.",
+    headline: "Himbauan Krisis Pangan Akibat Elnino",
+    source:
+      "Video di bawah berita yang berisi himbauan Presiden Jokowi tentang resiko terjadinya kenaikan harga pangan akibat cuaca ekstream El Nino. Menurut anda apakah hal yang disampaikan memang nyata?",
+    video: "content/elnino.mp4",
+    cek: "Berita ini Asli",
+    explain:
+      "Hal yang disampaikan memang nyata. Badai Elnino memang dapat menyebabkan resiko krisis pangan di Indonesia.",
+    answer: true,
+  },
+  {
+    headline: "Pengrajin Sepatu Bordir dengan Omset Belasan Juta",
+    source:
+      "Pada portal berita lensaIndonesia.com memposting berita yang berisi bahwa seorang prngrajin sepatu dapat meraup untung Rp 15 juta per bulan hanya karena iseng. Menurut Anda apakah hal tersebut fakta?",
+    image: "content/pengrajin sepatu.jpg",
+    cek: "Berita ini Asli",
+    explain:
+      "Usaha Ida Yudha yang diteruskan oleh generasi kedua (Victoria) ini memang sudah menembus pasar dunia. Ida Yudha Kusuma Dewi sukses hasilkan ribuan sepatu bordir dan rajut dengan meraup omset rata-rata Rp. 15 juta / bulan.",
+    answer: true,
+  },
+  {
+    headline: "Perbaikan Jalan Lampung",
+    source:
+      "Pada portal berita news.republika.com memposting berita yang berisi pemerintahan Lampung gencar memperbaiki beberapa titik jalan rusak dikarenakan viral dan juga kunjungan Presiden jokowi.",
+    image: "content/lampung.jpg",
+    cek: "Berita ini Asli",
+    explain:
+      "Perbaikan jalan rusak di Lampung gencar dilakukan karena beredar info pada pekan tersebut, Presiden Joko Widodo (Jokowi) akan meninjau jalan rusak di Lampung, sehingga pemerintah daerah pun bergerak cepat melakukan perbaikan.",
+    answer: true,
+  },
+  {
+    headline: "Indonesia VS Argentina",
+    source:
+      "Video di bawah berisi informasi bahwa Timnas Indonesia akan bertanding melawan Timnas Argentina di Jakarta. Apakah hal tersebut dapat dipercaya dan merupakan informasi fakta? ",
+    video: "content/argentina.mp4",
+    cek: "Berita ini Asli",
+    explain:
+      "Timnas Indonesia memang akan bertanding dengan Timnas Indonesia di Jakarta pada 19 Juni 2023 dan telah dikonfirmasi oleh Menteri Olahraga Erick Thohir.",
+    answer: true,
+  },
+  {
+    headline: "Aldi Taher Nyaleg",
+    source:
+      "Video di bawah menunjukkan seorang artis yakni Aldi Taher mencalonkan dirinya sebagai calon legislatif dengan diusung oleh 2 partai ternama. Menurut anda apakah informasi tersebut memang benar?",
+    video: "content/aldi taher.mp4",
+    cek: "Berita ini Asli",
+    explain:
+      "Informasi tersebut memang benar. Aldi Taher sendiri telah mengonfirmasi hal tersebut dalam siaran langsung dirinya dengan salah satu acara saluran televisi TV One",
     answer: true,
   },
 ];
